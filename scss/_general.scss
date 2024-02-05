@@ -1,0 +1,75 @@
+
+html {
+    font-size: 62.5%;
+    height: 100%;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 40px;
+    padding-top: 10px;
+    font-size: 16px;
+    height: 100%;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(135deg, rgba(34, 193, 195, 1) 23%, rgba(253, 247, 45, 1) 100%);
+  }
+
+.boton {
+    color: $color-botones;
+    font-size: 14px;
+}
+
+.navegador {
+    background-color: $color-fuentes; 
+    border: none;
+    border-radius: 0%;
+    font-weight: bold;
+}
+
+.tituloEspecial {
+    font-size: 3rem;
+}
+
+.formAdicional {
+    width: 55%;
+}
+
+.foto {
+    max-width: 350px;
+    width: 320px;
+    height: 260px;
+    margin: 20px;
+    padding: 5px;
+    display: inline-block;
+    margin: auto;
+}
+
+.imgCarta {
+    max-width: 100%;
+    height: auto;
+}
+
+#whatsapp-logo {
+    position: fixed;
+    bottom: 20px;
+  
+    /* Ajusta la distancia desde la parte inferior según tus necesidades */
+    right: 20px;
+  
+    /* Ajusta la distancia desde la derecha según tus necesidades */
+    z-index: 9999;
+  
+    /* Asegura que la imagen esté sobre otros elementos de la página */
+  
+    img {
+      width: 50px;
+  
+      /* Ajusta el ancho de la imagen según tus necesidades */
+      height: auto;
+  
+      /* Permite que la altura se ajuste proporcionalmente al ancho */
+    }
+  }
+  
+  /* Otros estilos si es necesario */
+

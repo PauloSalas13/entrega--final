@@ -1,0 +1,39 @@
+/*pie de pagina*/
+
+/*estilo de barra de botones de redes sociales*/
+
+.redes {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: burlywood;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+    background-color: $color-fuentes-sec;
+    padding: .50rem 1rem;
+  
+    .copiright {
+      display: inline-flex;
+      align-items: center;
+      padding: .50rem;
+      max-width: 50%;
+      margin: auto;
+      margin-left: 0;
+      background-color: lightgreen;
+  
+      p {
+        color: #BBBBBB;
+        align-self: center;
+        font-family: "Palanquin Dark";
+        font-size: 1rem;
+        font-weight: bold;
+        margin: 0 .50rem;
+        background-color: $color-fuentes-otr;
+      }
+    }
+  }
+  

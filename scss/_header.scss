@@ -1,0 +1,132 @@
+/*head*/
+
+.titulo {
+    height: 2rem;
+}
+
+.imgLogo {
+    margin-left: 10px;
+    margin-top: -60px;
+    width: 50px;
+    height: 100px;
+}
+
+/*Segunda Barra de Navegacion*/
+
+.especialUl {
+    list-style-type: none;
+    margin-top: 0px;
+    margin-left: 350px;
+    margin-right: 350px;
+    padding: 0;
+    overflow: hidden;
+    background-color: brown;
+}
+
+.especial {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a {
+    /*quitar subrayado*/
+    text-decoration: none;
+
+    /*mayuscula*/
+    text-transform: uppercase;
+
+    /*color fuente*/
+    color: $color-fuentes-otr;
+}
+
+h1 {
+ color: $color-fuentes;
+}
+
+h2 {
+    color: $color-fuentes;
+   }
+
+h5 {
+    color: $color-fuentes;
+}
+
+/*del menu se deja seleccionado uno según pagina*/
+
+#sel {
+    background-color: chocolate;
+}
+
+
+
+.tituloLink {
+    font-size: 2rem;
+}
+
+.formTitulo {
+    color: $color-fuentes;
+}
+
+/* Estilo para los botones de la barra de navegación */
+
+.navbar-nav .nav-link {
+    padding: 8px 15px;
+    margin: 0 5px;
+    background-color: #4CAF50;
+  
+    /* Verde */
+    color: #FFFFFF;
+  
+    /* Blanco */
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  
+    &:hover {
+      background-color: #45a049;
+  
+      /* Verde más oscuro */
+      color: #FFFFFF;
+  
+      /* Blanco */
+    }
+  }
+  
+  /* Cambia el color de fondo y el color del texto al pasar el ratón por encima */
+  
+  /* Estilo para el botón de menú en dispositivos móviles */
+  
+  .navbar-toggler {
+    background-color: #4CAF50;
+  
+    /* Verde */
+    border: 1px solid #4CAF50;
+  
+    /* Borde verde */
+  }
+  
+  /* Cambia el color del icono del botón de menú en dispositivos móviles */
+  
+  .navbar-toggler-icon {
+    background-color: #FFFFFF;
+  
+    /* Blanco */
+  }
+  
+  /* Agrega una sombra suave al botón de menú en dispositivos móviles */
+  
+  .navbar-toggler {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo para la barra de navegación cuando está desplegada en dispositivos móviles */
+  
+  .navbar-collapse {
+    background-color: #4CAF50;
+  
+    /* Verde */
+    padding: 10px;
+  }
+  

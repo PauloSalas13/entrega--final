@@ -1,0 +1,29 @@
+/* Estilos generales para todos los tamaños de pantalla */
+
+h1, h2, h3, h4, h5, h6, p {
+  display: none;
+}
+
+/* Estilos específicos para pantallas menores de 450px */
+@media (max-width: 450px) {
+  h1 {
+    display: block;
+    font-weight: bold;
+  }
+}
+
+/* Estilos específicos para pantallas entre 451px y 750px */
+@media (min-width: 451px) and (max-width: 750px) {
+  h1, h2 {
+    display: block;
+    font-weight: bold;
+  }
+}
+
+/* Estilos específicos para pantallas mayores de 750px */
+@media (min-width: 751px) {
+  h1, h2, h3, h4, h5, h6, p {
+    display: block;
+    font-weight: bold;
+  }
+}
